@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Twitter Catch</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="header">
+	<nav>
+		<ul>
+			<li><a href="/login">Logout</a></li>
+			<li id="popular">Popular</li>
+			<li id="recent">Recent</li>
+		</ul>
+	</nav>
+</div>
+
+
+<div class="search">
+<h1>Make a search wish !</h1>
+
+
+<form id="search-form" class="searchField">
+	<input id="keyWord" type="text" name="q">
+	<input id="btn" type="submit" value="Search"></input>
+</form>
+</div>
+
+<div class="wrapper">
+
+<h2 id="result"></h2>
+
+<div id="cards">
+</div>
+
+<div id="loadMore">
+	<span>Load More</span>
+</div>
+
+</div>
+
+
+</body>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</html>
